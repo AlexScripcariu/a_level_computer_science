@@ -9,7 +9,7 @@ namespace csharp_projects
         // A procedure to simulate how a virus grows with the number of days
         static void ModelVirus(int day, int currentCases, double R, int target)
         {
-            long int populationInfected = currentCases;
+            long populationInfected = currentCases;
             
             do 
             {
@@ -25,7 +25,7 @@ namespace csharp_projects
         static void Main(string[] args) 
         {
           // DAY 1, cases 1, R, 1.2, target 10000 people
-          ModelVirus(1, 1, 1.2, 7800000000);
+          ModelVirus(1, 1, 1.2, 1000);
         }
     }
 }
