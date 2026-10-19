@@ -1,15 +1,15 @@
-// A program that 
-using System;
+// // A program that 
+// using System;
 
-namespace csharp_projects
-{
-    class PasswordChecker
-    {
+// namespace csharp_projects
+// {
+//     class PasswordChecker
+//     {
 
-        // Main function of the program
-        static void Main(string[] args) 
-        {
+//         // Main function of the program
+//         static void Main(string[] args) 
+//         {
 
-        }
-    }
-}
+//         }
+//     }
+// }

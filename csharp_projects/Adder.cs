@@ -1,15 +1,15 @@
-// A program that 
-using System;
+// // A program that 
+// using System;
 
-namespace csharp_projects
-{
-    class Adder
-    {
+// namespace csharp_projects
+// {
+//     class Adder
+//     {
 
-        // Main function of the program
-        static void Main(string[] args) 
-        {
+//         // Main function of the program
+//         static void Main(string[] args) 
+//         {
 
-        }
-    }
-}
+//         }
+//     }
+// }
