@@ -8,7 +8,7 @@ namespace csharp_projects
         //A function that prompts a user with a given message
         // It then tries to convert the input into a int. It will undergo type check,
         // presence check, and limit checks
-        public static int GetInput(string message)
+        public static int GetInput(string message, int lowerBound=null, int upperBound=null)
         {
             string? userInput;
             
@@ -26,11 +26,14 @@ namespace csharp_projects
 
                 if (Int32.TryParse(userInput, out int result))
                 { // True if passes the type check
-                    if (result <= 0)
+                    if (lowerBound != null && result < lowerBound)
                     { // This implies a failed limit check, must be +ve
-                        Console.WriteLine("Please enter a positive number!");
+                        Console.WriteLine($"Please enter a number bigger than or equal to {lowerBound}!");
                         continue;
                     } 
+                    if (upperBound != null && result > upperBound) {
+                        Console.WriteLine($"Please enter a number less than or equal to {upperBound}");
+                    }
                     // if (result % 5 != 0)
                     // {
                     //     Console.WriteLine("Please enter only multiples of 5!");
