@@ -13,7 +13,7 @@
 //             // I will map the options to integers;
 //             // Rock = 0, paper = 1 , scissors = 2
 //             Random RNG = new();
-//             int computerChoice = RNG.Next(1, 4);
+//             int computerChoice = RNG.Next(0, 3);
 
 //             string userChoice;
 //             int userValue = -1;
